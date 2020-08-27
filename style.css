@@ -1,0 +1,123 @@
+
+      body {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 3rem;
+        background-color: rgb(227, 255, 248);
+      }
+      div {
+        background-color: rgb(182, 182, 182);
+        height: 5px;
+        width: 1%;
+        float: left;
+      }
+      .outer-box {
+        border-radius: 6px;
+        background-color: rgb(255, 59, 59);
+        box-shadow: -12px 14px 36px 0px rgba(0,0,0,0.25);
+        height: 25rem; 
+        padding: 4rem;
+        padding-bottom: 3.5rem;
+        position: relative;
+      }
+
+      .circle-l {
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        height: 5rem;
+        width: 5rem;
+        background-color: #fff;
+        border-radius: 100px;
+        box-shadow: -12px 14px 36px 0px rgba(0,0,0,0.25);
+        border: none;
+      }
+
+      .circle-r {
+        position: absolute;
+        bottom: 15px;
+        right: 20px;
+        height: 5rem;
+        width: 5rem;
+        background-color: #fff;
+        border-radius: 100px;
+        box-shadow: -12px 14px 36px 0px rgba(0,0,0,0.25);
+        border: none;
+      }
+
+      h1 {
+        position: absolute;
+        top: -20px;
+        left: 175px;
+        letter-spacing: 2px;
+        font-family: 'Satisfy', cursive;
+        font-size: 2.5rem;
+        color: #e0b72e;
+      }
+
+      .magic {
+        position: absolute;
+        top: -15px;
+        left: 90px;
+        letter-spacing: 2px;
+        font-family: 'Satisfy', cursive;
+        font-size: 1.5rem;
+        color: #D4AF37;
+      }
+      .screen {
+        position: absolute;
+        top: -15px;
+        right: 90px;
+        letter-spacing: 2px;
+        font-family: 'Satisfy', cursive;
+        font-size: 1.5rem;
+        color: #D4AF37;
+      }
+
+      .refresh {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(161, 40, 40);
+        font-size: 1rem;
+      }
+
+      @media only screen and (max-width: 690px) {
+        .magic {
+          opacity: 0;
+        }
+        .screen {
+          opacity: 0;
+        }
+
+        h1 {
+          font-size: 2rem;
+          top: -10px;
+        }
+      }
+
+      @media only screen and (max-width: 640px) {
+
+        h1 {
+          font-size: 2rem;
+          top: -10px;
+          left: 150px;
+        }
+      }
+
+      @media only screen and (max-width: 550px) {
+
+        h1 {
+          font-size: 2rem;
+          top: -10px;
+          left: 130px;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+
+        h1 {
+          font-size: 2rem;
+          top: -10px;
+          left: 105px;
+        }
+      }
